@@ -199,19 +199,57 @@ namespace Basics
             #endregion
 
             #region ExceptionHandling
-            //try
-            //{
-            //    int result = 1, powno = 2, baseno=3;
-            //    for (int i= 0; i<powno; i++)
-            //    {
-            //        result = result * baseno;
-            //    }
-            //    Console.WriteLine(result);
-            //}
-            //catch(Exception e)
-            //{
-            //    Console.WriteLine(e.Message);
-            //}
+            /*try
+            {
+                int result = 1, powno = 2, baseno = 3;
+                for (int i = 0; i < powno; i++)
+                {
+                    result = result * baseno;
+                }
+                Console.WriteLine(result);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }*/
+            #endregion
+
+            #region OOPS
+            //class&objects/Constructors
+            Book book1 = new Book("The Hobbit", "Kolin", 560);
+            Book book = new Book();
+            book.title = "Lord of the Rings";
+            book.author = "J.R.R. Tolkien";
+            book.pages = 450;
+            Console.WriteLine(book.title);
+            Console.WriteLine(book1.title);
+
+            // ObjectMethods
+            Student stud1 = new Student("Padma", "Maths", 2.5);
+            Student stud2 = new Student("Siva", "Science", 3.2);
+
+            Console.WriteLine(stud1.Honors());
+            Console.WriteLine(stud2.Honors());
+
+            // Getters & Setters Attributes
+            Movie movie = new Movie("PS2", "Manirathnam", "R");
+            Console.WriteLine(movie.Rating);
+
+            // Static Attribute
+            Song s = new Song("Munbaevaa", "5min");
+            Console.WriteLine(Song.count);
+            Console.WriteLine(s.getCount());
+
+            // Static class and method
+            UsefullTool.Print("Hello Padmavathi!");  // without creating obj method accessed
+
+            // Inheritance
+            Chef chef = new Chef();
+            chef.MakeVarityRice();
+            chef.MakeSpecialDish();
+            ItalianChef italianChef = new ItalianChef();
+            italianChef.MakeVarityRice();
+            italianChef.MakeSpecialDish();
             #endregion
 
             Console.ReadLine();

@@ -6,3 +6,11 @@ C:\Users\padma\source\repos\Basics\obj\Debug\Basics.csproj.SuggestedBindingRedir
 C:\Users\padma\source\repos\Basics\obj\Debug\Basics.csproj.CoreCompileInputs.cache
 C:\Users\padma\source\repos\Basics\obj\Debug\Basics.exe
 C:\Users\padma\source\repos\Basics\obj\Debug\Basics.pdb
+C:\Users\padma\source\repos\csharpBasics\bin\Debug\Basics.exe.config
+C:\Users\padma\source\repos\csharpBasics\bin\Debug\Basics.exe
+C:\Users\padma\source\repos\csharpBasics\bin\Debug\Basics.pdb
+C:\Users\padma\source\repos\csharpBasics\obj\Debug\Basics.csproj.AssemblyReference.cache
+C:\Users\padma\source\repos\csharpBasics\obj\Debug\Basics.csproj.SuggestedBindingRedirects.cache
+C:\Users\padma\source\repos\csharpBasics\obj\Debug\Basics.csproj.CoreCompileInputs.cache
+C:\Users\padma\source\repos\csharpBasics\obj\Debug\Basics.exe
+C:\Users\padma\source\repos\csharpBasics\obj\Debug\Basics.pdb
